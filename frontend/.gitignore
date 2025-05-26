@@ -7,10 +7,21 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
+# Ignore all node_modules folders recursively
+**/node_modules/
+
+# Build output folders
 dist
 dist-ssr
 *.local
+
+# Ignore Python virtual environment folders recursively
+**/venv/
+**/.venv/
+
+# Ignore all env files recursively (like .env, .env.local, etc.)
+**/*.env*
+**/env
 
 # Editor directories and files
 .vscode/*
