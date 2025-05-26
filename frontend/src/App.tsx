@@ -41,8 +41,8 @@ const App: React.FC = () => {
   };
 
   return (
-    <div className="p-6 bg-gray-100 min-h-screen text-gray-900">
-      <h1 className="text-2xl font-bold mb-4">📂 Upload PDFs to Local Folder</h1>
+    <div className="p-6 bg-gray-100 min-w-screen min-h-screen text-gray-900">
+      <h1 className="text-2xl font-bold mb-4">📂 PDF Summariser</h1>
 
       <UploadBox addFiles={addFiles} files={files} uploadedFiles={uploaded} />
 
