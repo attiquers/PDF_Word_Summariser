@@ -1,0 +1,19 @@
+# Ignore node_modules folder
+node_modules/
+
+# Ignore Python virtual environments
+venv/
+.env/
+.env.bak/
+env/
+ENV/
+venv.bak/
+
+# Optional: Ignore other common Python environment folders
+__pycache__/
+*.py[cod]
+
+# Optional: Ignore npm debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*

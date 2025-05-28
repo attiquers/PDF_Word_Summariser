@@ -1,3 +1,8 @@
-fastapi
-uvicorn
-python-multipart
+pdfminer.six
+transformers
+torch  # CPU-only by default
+dask[complete]
+fsspec
+PyMuPDF  # optional for pdf extraction, faster
+tqdm
+dask
